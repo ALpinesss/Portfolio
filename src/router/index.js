@@ -14,7 +14,7 @@ const router = createRouter({
     { path: '/hct', name: 'HCT', component: HCT},
     { path: '/zy', name: 'Zyone', component: Zyone},
   ],
-  scrollBehavior(to, savedPosition) {
+  scrollBehavior(to, from, savedPosition) {
     if (to.hash) {
       return {
         el: to.hash,
