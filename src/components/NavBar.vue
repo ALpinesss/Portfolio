@@ -21,10 +21,10 @@
       <!-- Nav Links for Desktop View -->
       <div class="hidden md:flex flex-1 text-center justify-center">
         <div class="inline-flex space-x-12 font-bold">
-          <a href="/" class="relative hover:underline">Home</a>
-          <a href="#about" class="relative hover:underline">About</a>
-          <a href="#projects" class="relative hover:underline">Projects</a>
-          <a href="/Adrales - CV.pdf" target="_blank" class="hover:underline">Resume</a>
+          <RouterLink to="/" class="relative hover:underline">Home</RouterLink>
+          <RouterLink to="#about" class="relative hover:underline">About</RouterLink>
+          <RouterLink to="#projects" class="relative hover:underline">Projects</RouterLink>
+          <RouterLink to="/Adrales - CV.pdf" target="_blank" class="hover:underline">Resume</RouterLink>
         </div>
       </div>
 
